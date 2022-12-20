@@ -1,6 +1,5 @@
 # Fix M1 RGB
 Forces RGB output on external displays for M1 Macs.
 ## Usage:
-- Install dependencies: `npm install`
-- Run script: `sudo node fix.js`
+- Run package: `npx fix-m1-rgb`
 - Restart macOS

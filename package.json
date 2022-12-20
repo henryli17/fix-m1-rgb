@@ -1,9 +1,21 @@
 {
+  "name": "fix-m1-rgb",
+  "version": "0.0.2",
+  "description": "",
+  "main": "fix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "henryli17",
+  "license": "ISC",
   "dependencies": {
     "bplist-creator": "^0.1.1",
     "bplist-parser": "^0.3.2",
     "check-sudo": "^1.1.3",
     "expand-tilde": "^2.0.2",
     "glob": "^8.0.3"
+  },
+  "bin": {
+    "fix-m1-rgb": "bin/fix.js"
   }
 }

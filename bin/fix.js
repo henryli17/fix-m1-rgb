@@ -1,4 +1,6 @@
-const bplist = require('bplist-parser');
+#!/usr/bin/env sudo node
+
+const parser = require('bplist-parser');
 const creator = require('bplist-creator');
 const fs = require('fs');
 const glob = require("glob")
@@ -27,7 +29,7 @@ const plistPaths = async () => {
 	const paths = await plistPaths();
 
 	for (const path of paths) {
-		const plist = await bplist.parseFile(path);
+		const plist = await parser.parseFile(path);
 		const configs = plist[0].DisplaySets?.Configs || plist[0].DisplayAnyUserSets.Configs;
 	
 		for (const config of configs) {
