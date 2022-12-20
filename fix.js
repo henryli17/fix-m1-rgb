@@ -43,4 +43,6 @@ const plistPaths = async () => {
 	
 		fs.writeFileSync(path, creator(plist));
 	}
+
+	console.log("SUCCESS: Restart macOS to enable RGB output.")
 })();
