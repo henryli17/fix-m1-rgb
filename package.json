@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "bplist-creator": "^0.1.1",
+    "bplist-parser": "^0.3.2",
+    "check-sudo": "^1.1.3",
+    "expand-tilde": "^2.0.2",
+    "glob": "^8.0.3"
+  }
+}
