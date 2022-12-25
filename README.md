@@ -5,4 +5,4 @@ Forces RGB output on external displays for M1 Macs.
 - Run package: `npx fix-m1-rgb`
 - Restart macOS
 
-\*causes a display config entry to be added to `com.apple.windowserver.displays.plist`
+\*required for a display config entry to be added to `com.apple.windowserver.displays.plist`

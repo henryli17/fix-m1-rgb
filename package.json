@@ -1,6 +1,6 @@
 {
   "name": "fix-m1-rgb",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "main": "fix.js",
   "scripts": {
